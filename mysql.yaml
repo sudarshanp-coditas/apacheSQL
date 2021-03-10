@@ -1,0 +1,5 @@
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: install apache
+      yum: name=mysql-community-server state=latest
